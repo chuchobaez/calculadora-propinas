@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora de propinas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Agregar los enlaces de Bootstrap CSS y el CSS personalizado -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculadora de propinas</h1>
+      <form>
+        <div class="form-group">
+          <label for="total">Total a pagar:</label>
+          <input type="number" class="form-control" id="total" placeholder="Ingrese el total a pagar">
+        </div>
+        <div class="form-group">
+          <label for="personas">Cantidad de personas:</label>
+          <input type="number" class="form-control" id="personas" placeholder="Ingrese la cantidad de personas">
+        </div>
+        <div class="form-group">
+          <label for="propina">Seleccione el porcentaje de la propina:</label>
+          <select class="form-control" id="propina">
+            <option value="0.05">5%</option>
+            <option value="0.1">10%</option>
+            <option value="0.2">20%</option>
+          </select>
+        </div>
+        <button type="button" class="btn btn-primary" onclick="calcularPropina()">Calcular propina</button>
+      </form>
+      <br>
+      <div id="resultados">
+        <!-- Aquí se mostrarán los resultados -->
+      </div>
+    </div>
+    <!-- Agregar los enlaces de Bootstrap JS y el JS personalizado -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

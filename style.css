@@ -1,0 +1,29 @@
+/* Personalizar el fondo y los márgenes */
+body {
+    background-color: #f2f2f2;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  /* Personalizar el contenedor */
+  .container {
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+  }
+  
+  /* Personalizar el título */
+  h1 {
+    text-align: center;
+  }
+  
+  /* Personalizar el botón */
+  .btn-primary {
+    width: 100%;
+  }
+  
+  /* Personalizar los resultados */
+  .resultado {
+    font-weight: bold;
+  }
+  
